@@ -29,14 +29,16 @@ public class CheetahGroupTest {
     @AfterAll
     public static void tearDownClass() {
     }
+    
+    @AfterEach
+    public void tearDown() {
+    }
 
     @BeforeEach
     public void setUp() {
     }
 
-    @AfterEach
-    public void tearDown() {
-    }
+  
 
     /**
      * Test of create method, of class CheetahGroup.
