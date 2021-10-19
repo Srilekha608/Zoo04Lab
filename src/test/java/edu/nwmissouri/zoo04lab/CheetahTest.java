@@ -29,14 +29,12 @@ public class CheetahTest {
     @AfterAll
     public static void tearDownClass() {
     }
-
+    @AfterEach
+    public void tearDown() {
+    }
     @BeforeEach
     public void setUp() {
         System.setOut(new PrintStream(outputStreamCaptor));
-    }
-
-    @AfterEach
-    public void tearDown() {
     }
 
     /**
